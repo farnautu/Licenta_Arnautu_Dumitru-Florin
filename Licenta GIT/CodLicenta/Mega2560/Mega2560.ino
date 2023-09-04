@@ -186,8 +186,7 @@ void setup(void)
   bmp.begin();//bmp280 - preniune si temperatura
   aht.begin();//aht21 - temperatura si umiditate aer
 
-  if (! ina219_0x40.begin()/*||!ina219_B.begin()*/||!ina219_0x44.begin()/*||!ina219_D.begin()*/) {//verific daca cel putin un chip INA219 este functional
-    //Serial.println("Failed to find INA219 chip");// initial credeam ca aici se ajunge doar daca sunt deconectate liniile de I2C ...
+  if (! ina219_0x40.begin()||!ina219_0x44.begin()) {//verific daca cel putin un chip INA219 este functional
     while (1) { delay(10); }
   }
   //=============================================================================Control Motoare BTS7960
