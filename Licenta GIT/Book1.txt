@@ -1,0 +1,31 @@
+Pin	Tip Semnal	Componenta 	Referinta	Direcie	ValMin	ValMax	Min	Max	Scop	Conectat la	Pinul		
+53	Digital	Mega 2560	CS	Iesire	0V	5V	LOW	HIGH	Colectare date	Modul microSD	CS		
+52	Digital	Mega 2560	CLK	Iesire	0V	5V	LOW	HIGH	Colectare date	Modul microSD	SCK		
+51	Digital	Mega 2560	MOSI	Iesire	0V	5V	LOW	HIGH	Colectare date	Modul microSD	SDI		
+50	Digital	Mega 2560	MISO	Intrare	0V	5V	LOW	HIGH	Colectare date	Modul microSD	SDO		
+A8	Analogic	Mega 2560	-	Intrare	0V	5V	0	1023	Urmarire Soare	Fotorezistor	-		
+A9	Analogic	Mega 2560	-	Intrare	0V	5V	0	1023	Urmarire Soare	Fotorezistor	-		
+A10	Analogic	Mega 2560	-	Intrare	0V	5V	0	1023	Urmarire Soare	Fotorezistor	-		
+A11	Analogic	Mega 2560	-	Intrare	0V	5V	0	1023	Urmarire Soare	Fotorezistor	-		
+23	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	-	Releu	IN		
+24	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Racire (Ventilator)	Releu	IN		
+25	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Racire (Ventilator)	Releu	IN		
+26	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	-	Releu	IN		
+4	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Pozitionare Panou	Punte H 1	L_EN		
+5	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Pozitionare Panou	Punte H 1	R_EN		
+6	PWM	Mega 2560	-	Iesire	0V	5V	0	255	Pozitionare Panou	Punte H 1	R_PWM		
+7	PWM	Mega 2560	-	Iesire	0V	5V	0	255	Pozitionare Panou	Punte H 1	L_PWM		
+8	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Pozitionare Panou	Punte H 2	L_EN		
+9	Digital	Mega 2560	-	Iesire	0V	5V	LOW	HIGH	Pozitionare Panou	Punte H 2	R_EN		
+10	PWM	Mega 2560	-	Iesire	0V	5V	0	255	Pozitionare Panou	Punte H 2	R_PWM		
+11	PWM	Mega 2560	-	Iesire	0V	5V	0	255	Pozitionare Panou	Punte H 2	L_PWM		
+13	Digital	Mega 2560	-	Intrare	0V	5V	LOW	HIGH	Configuratie Debug	OLED	Comutator 		
+SDA	Digital	Mega 2560	-	Intrate/Iesire	0V	5V	LOW	HIGH	Transmisie Date	Magistrala I2C	-		
+SCL	Digital	Mega 2561	-	Iesire	0V	5V	LOW	HIGH	Semnal de clock	Magistrala I2C	-		
+													
+													
+													
+													
+													
+													
+													
